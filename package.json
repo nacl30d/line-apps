@@ -1,0 +1,8 @@
+{
+    "name": "@nacl30d/line-apps",
+    "version": "0.1.0",
+    "description": "Applications work with LINE",
+    "license": "MIT",
+    "private": true,
+    "workspaces": ["apps/*"]
+}
