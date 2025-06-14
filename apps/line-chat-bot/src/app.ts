@@ -24,7 +24,6 @@ app.notFound((c) => {
 app.onError(ErrorHandler);
 
 app.post('/webhook', verifyLineSignature, async (c) => {
-  console.debug({ request: await c.req.json() });
   return c.json(null);
 });
 
