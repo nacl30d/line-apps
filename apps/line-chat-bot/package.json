@@ -6,15 +6,12 @@
   "license": "MIT",
   "main": "src/index.ts",
   "scripts": {
-    "check": "biome check",
-    "fix": "biome check --fix --unsafe",
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
     "test": "vitest"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
     "@cloudflare/vitest-pool-workers": "^0.6.4",
     "@cloudflare/workers-types": "^4.20250204.0",
     "typescript": "^5.5.2",
